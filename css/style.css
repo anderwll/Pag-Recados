@@ -1,0 +1,252 @@
+/*------------- DECLARAÇÕES GLOBIAS -----------------*/
+
+* {
+    margin: 0; padding: 0;
+}
+
+/*------------- PAGINAS ENTRAR E CRIAR ---------------*/
+
+main {
+    background-image: url(../img/tarefas01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content:end;
+}
+
+section {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; 
+}
+
+.divs {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-right: 80px;
+}
+
+h1 {
+    color: rgb(12, 12, 12);
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+button {
+    display: block;
+    width: 630px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: rgb(12, 12, 12);
+    border: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    opacity: 0.8;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+}
+
+/*--------------- PAGINA CRIAR -------------------*/
+
+.input-cadastro {
+    display: block;
+    width: 615px;
+}
+
+/*--------------- PAGINA RECADOS -------------------*/
+
+.main-recados {
+    background-image: url(../img/tarefas02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-recados {
+    position: absolute;
+    display: flex;
+}
+
+.div-recados {
+    background: rgba(0, 0, 0, 0.1);
+    margin: 2vh 0 0 0;
+    padding: 2vh;
+}
+
+.h1-recados {
+    color: rgb(255, 254, 254);
+    display: flex;
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.h2-recados {
+    color: rgb(255, 254, 254);
+    display: flex;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.input-desc {
+    display: inline;
+    width: 35vw;
+    height: 4vh;
+    font-style: italic;
+    font-size: 1.8vh;
+}
+
+.input-det {
+    display: inline;
+    width: 52vw;
+    height: 4vh;
+    font-style: italic;
+    font-size: 1.8vh;
+}
+
+.btn-salvar, .btn-atualizar, .btn-cancelar {
+    display: inline;
+    width: 155px;
+    height: 55px;
+    border: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    opacity: 0.8;
+    font-style: italic;
+    font-size: 22px; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-salvar {
+    background-color: green;
+}
+
+.btn-atualizar {
+    background-color: blue;
+    display: none;
+}
+
+.btn-cancelar {
+    background-color: red;
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 2vh;
+}
+  
+th, td {
+    padding: 4px;
+    text-align: left;
+    border-bottom: 1px solid rgb(129, 128, 128);
+}
+
+th {
+    color: white;
+}
+
+tr.records:hover {
+    background-color: rgba(58, 57, 57, 0.1);
+}
+
+.table-id {
+    width: 3vw;
+}
+
+.table-desc {
+    width: 32vw;
+}
+
+.table-det {
+    width: 55vw;
+}
+
+.btn-edit, .btn-delet  {
+    width: 95px;
+    height: 45px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 4px 0 4px 0;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.btn-edit {
+    background-color: blue;
+}
+
+.btn-delet {
+    background-color: red;
+}
+
+.div-titulo-recados {
+    display: flex;
+    align-items:center;
+}
+
+.btn-sair {
+    display: flex;
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(68, 66, 66);
+    color: white;
+    margin: 4px 0 4px 0;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.div-nome {
+    display: flex;
+    justify-content: space-between;
+}
